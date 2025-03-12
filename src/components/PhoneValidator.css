@@ -1,0 +1,147 @@
+.phone-validator {
+    text-align: center;
+    justify-content: center;
+    background: #2c2f4a;
+    border: 2px dashed #5F7FFF;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #5F7FFF;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.phone-validator h2 {
+    font-size: 18px;
+    margin: 15px auto;
+    
+}
+
+.phone-validator span {
+    color: #5F7FFF;
+}
+
+  
+.phone-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #5F7FFF;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.country-select {
+    text-align: left;
+}
+  
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+  
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.no-drop {
+    cursor: not-allowed;
+}
+
+button:disabled {
+    background-color: #d3d3d3;
+}
+  
+button:first-child {
+    background: #5F7FFF;
+    color: white;
+}
+
+button:first-child:hover{
+    background: #4D55CC;
+    color: white;
+    transition: 0.5s ease-in-out;
+    transform: scale(0.99);
+}
+     
+
+button:last-child {
+    background: #ff5f5f;
+    color: white;
+}
+
+button:last-child:hover{
+    background: #D84040;
+    color: white;
+    transition: 0.5s ease-in-out;
+    transform: scale(0.99)
+}
+
+input:focus {
+    outline: none;
+    border: 1px dashed #5F7FFF;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #001877;
+    
+}
+  
+.result {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.result.valid {
+    color: #0f9d58;
+    background-color: #e6f4ea;
+    border: 1px solid #0f9d58;
+}
+
+.result.invalid {
+    color: #d32f2f;
+    background-color: #fdecea;
+    border: 1px solid #d32f2f;
+}
+
+.result.error {
+    color: #ffa000;
+    background-color: #fff3e0;
+    border: 1px solid #ffa000;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .phone-validator {
+        margin-top: 90px;
+        width: 380px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .phone-validator {
+        margin-top: 90px;
+        width: 350px;
+        height: auto;
+    }
+}

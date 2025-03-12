@@ -1,0 +1,25 @@
+[
+    { "code": "+1", "label": "🇺🇸 United States" },
+    { "code": "+44", "label": "🇬🇧 United Kingdom" },
+    { "code": "+234", "label": "🇳🇬 Nigeria" },
+    { "code": "+91", "label": "🇮🇳 India" },
+    { "code": "+49", "label": "🇩🇪 Germany" },
+    { "code": "+33", "label": "🇫🇷 France" },
+    { "code": "+265", "label": "🇲🇼 Malawi" },
+    { "code": "+81", "label": "🇯🇵 Japan" },
+    { "code": "+61", "label": "🇦🇺 Australia" },
+    { "code": "+233", "label": "🇬🇭 Ghana" },
+    { "code": "+254", "label": "🇰🇪 Kenya" },
+    { "code": "+27", "label": "🇿🇦 South Africa" },
+    { "code": "+225", "label": "🇨🇮 Ivory Coast" },
+    { "code": "+216", "label": "🇹🇳 Tunisia" },
+    { "code": "+212", "label": "🇲🇦 Morocco" },
+    { "code": "+34", "label": "🇪🇸 Spain" },
+    { "code": "+39", "label": "🇮🇹 Italy" },
+    { "code": "+31", "label": "🇳🇱 Netherlands" },
+    { "code": "+351", "label": "🇵🇹 Portugal" },
+    { "code": "+358", "label": "🇫🇮 Finland" },
+    { "code": "+46", "label": "🇸🇪 Sweden" },
+    { "code": "+47", "label": "🇳🇴 Norway" }
+    
+]  

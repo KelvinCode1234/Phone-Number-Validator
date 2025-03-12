@@ -1,0 +1,46 @@
+p {
+  font-size: 14px;
+  margin-top: 10px;
+  background: #2c2f4a;
+  color: white;
+  max-width: 300px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  max-width: 300px;
+  text-align: center; 
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #5F7FFF;
+}
+
+@keyframes beep {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+}
+  
+.beep {
+  animation: beep 1s infinite;
+}
+
+span {
+  font-size: 18px;
+}
+  
