@@ -19,10 +19,10 @@ This project is a **fast and accurate** phone number validation tool built with 
 1. Select a country from the dropdown list.  
 2. Enter a phone number.  
 3. Click "Check" to validate.  
-4. The result will show whether the number is **valid or fake**, along with carrier details if available.  
+4. The result will show whether the number is **valid or fake**, along with `carrier` details if available.  
 
 ## **Live Demo**
-🚀 Try it live: [Phone Number Validator](https://github.io/#)
+🚀 Try it live: [Phone Number Validator](https://phone-number-vaidator.vercel.app/)
 
    
 
