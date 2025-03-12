@@ -4,7 +4,7 @@ import ReactGA from "react-ga4"
 import './index.css'
 import App from './App.tsx'
 
-ReactGA.initialize("YOUR_GOOGLE_ANALYTICS_ID");
+ReactGA.initialize("G-DZR9PKK8Z2");
 
 ReactGA.send("pageview");
 
