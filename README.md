@@ -1,54 +1,28 @@
-# React + TypeScript + Vite
+# **International Phone Number Validator**  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **fast and accurate** phone number validation tool built with **React, TypeScript, and Vite**. It allows users to verify the **authenticity and validity** of phone numbers worldwide with a simple and clean interface.  
 
-Currently, two official plugins are available:
+## **Features**  
+✅ **Supports International Numbers** – Select a country and enter a phone number for instant validation.  
+✅ **Fast and Reliable** – The validation process is optimized for speed and accuracy.  
+✅ **User-Friendly UI** – Clean design with intuitive input fields.  
+✅ **Privacy Focused** – No numbers are stored; validation happens in real-time.  
+✅ **Responsive Design** – Works on both desktop and mobile devices.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Tech Stack**  
+- **React + TypeScript + Vite** – For a fast and optimized development experience.  
+- **React-Select** – For a smooth country selection dropdown.  
+- **Axios** – To handle API requests efficiently.  
+- **CSS & Responsive Styling** – Ensures the tool looks great on all screens.  
 
-## Expanding the ESLint configuration
+## **How It Works**  
+1. Select a country from the dropdown list.  
+2. Enter a phone number.  
+3. Click "Check" to validate.  
+4. The result will show whether the number is **valid or fake**, along with carrier details if available.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## **Live Demo**
+🚀 Try it live: [Phone Number Validator](https://github.io/#)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+   
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
