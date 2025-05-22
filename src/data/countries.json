@@ -20,6 +20,15 @@
     { "code": "+351", "label": "🇵🇹 Portugal" },
     { "code": "+358", "label": "🇫🇮 Finland" },
     { "code": "+46", "label": "🇸🇪 Sweden" },
-    { "code": "+47", "label": "🇳🇴 Norway" }
-    
+    { "code": "+47", "label": "🇳🇴 Norway" },
+    { "code": "+46", "label": "🇸🇪 Sweden" },
+    { "code": "+92", "label": "🇵🇰 Pakistan" },
+    { "code": "+86", "label": "🇨🇳 China" },
+    { "code": "+62", "label": "🇮🇩 Indonesia" },
+    { "code": "+880", "label": "🇧🇩 Bangladesh" },
+    { "code": "+20", "label": "🇪🇬 Egypt" },
+    { "code": "+90", "label": "🇹🇷 Turkey" },
+    { "code": "+55", "label": "🇧🇷 Brazil" },
+    { "code": "+82", "label": "🇰🇷 South Korea" },
+    { "code": "+7", "label": "🇷🇺 Russia" }
 ]  
